@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="30dp"
+    android:layout_height="20dp"
+    android:orientation="vertical" 
+    android:background="#FFFF"
+    android:layout_gravity="center">
+
+   <TextView 
+       android:id="@+id/iText"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Success!!!"
+       android:layout_gravity="center"
+       android:gravity="center"
+       />
+   
+   	<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="#FFFF">
+   		<Button 
+       		android:id="@+id/restart"
+        	android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="重新开始"
+       	/>
+   		<Button 
+       		android:id="@+id/close"
+        	android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="关闭"
+       	/>
+   	</LinearLayout>
+   
+</LinearLayout>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/back_panel0"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+    
+    <TextView
+        android:id="@+id/back_panel"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/hello_world" 
+    	android:layout_marginTop="20dp"    />
+
+
+    <SeekBar
+        android:id="@+id/red_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:progress="127"
+        android:secondaryProgress="255"
+        android:max="255"></SeekBar>
+
+    <SeekBar
+        android:id="@+id/green_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:progress="127"
+        android:secondaryProgress="255"
+        android:max="255"/>
+
+    <SeekBar
+        android:id="@+id/blue_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:progress="127"
+        android:secondaryProgress="255"
+        android:max="255"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/red_text" 
+        android:id="@+id/red"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/green_text" 
+        android:id="@+id/green"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blue_text" 
+        android:id="@+id/blue"/>
+    "
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="退出"
+        android:layout_gravity="center" />
+
+</LinearLayout>
